@@ -24482,7 +24482,6 @@ rtl.module("WEBLib.Forms",["System","Classes","Types","SysUtils","WEBLib.Graphic
       this.FThemeTextColor = 16777215;
       window.addEventListener("error",rtl.createCallback(this,"DoHandleError"));
       this.FErrorType = $mod.TApplicationErrorType.aeSilent;
-      alert('TMS WEB Core \u00A9 2018 - 2019 tmssoftware.com - Trial Version');
       return this;
     };
     this.Destroy = function () {
@@ -26581,7 +26580,7 @@ rtl.module("Unit14",["System","SysUtils","Classes","strutils","JS","Web","WEBLib
         this.WebSocketClient1.SetParentComponent(this);
         this.WebSocketClient1.SetName("WebSocketClient1");
         this.WebSocketClient1.FPort = 30321;
-        this.WebSocketClient1.FHostName = "127.0.0.1";
+        this.WebSocketClient1.FHostName = "root.hemulgm.ru";
         this.WebSocketClient1.FOnConnect = rtl.createCallback(this,"WebSocketClient1Connect");
         this.WebSocketClient1.FOnDisconnect = rtl.createCallback(this,"WebSocketClient1Disconnect");
         this.WebSocketClient1.FOnDataReceived = rtl.createCallback(this,"WebSocketClient1DataReceived");
